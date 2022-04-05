@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Payback Demo MVVM</string>
+    <string name="search_hint">Search Image Type</string>
+
+    <string name="dialog_title">Image Details</string>
+    <string name="dialog_message">Do you want to see details?</string>
+    <string name="dialog_positive">Yes</string>
+    <string name="dialog_negative">No</string>
+</resources>

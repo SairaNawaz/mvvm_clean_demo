@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    app:startDestination="@id/images_list">
+
+    <fragment
+        android:id="@+id/images_list"
+        android:name="com.payback.demo.views.imageList.ImageListFragment">
+        <action
+            android:id="@+id/action_images_list_to_image_details"
+            app:destination="@id/image_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/image_details"
+        android:name="com.payback.demo.views.imageDetails.ImageDetailsFragment"
+
+        >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
+
